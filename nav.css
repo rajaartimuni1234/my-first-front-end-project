@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+
+.back-ground-image{
+    background-image: url(/coin-img/background_top.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-color: rgba(18, 17, 17, 0.858);
+}
+.phone{
+float: right;
+top:60vh;
+right: 10px;
+position:fixed;
+
+}
+.phone a {
+    text-align: right;
+    background-color: black;
+    padding: 15px 20px ;
+    border-radius: 100%;
+color: white;
+font-size: 40px;
+}
+.up-arrow {
+    float: right;
+    top:95vh;
+    right:15px;
+    position: fixed;
+    
+}
+
+.up-arrow a{
+    background-color: rgb(171, 36, 36);
+    padding: 4px 12px ;
+    color:white;
+    font-size: 20px;
+}
+.up-arrow a:hover{
+    background-color: rgba(23, 22, 22, 0.865);
+    color:white;
+}
+nav{
+
+    width: 100%;
+     height: 18vh;
+    
+}
+nav ul{
+    float: right;
+    
+    padding: 40px 10px;
+    list-style: none;
+    margin-right: 20px;
+   margin-left: 15px;
+
+}
+nav  ul li{
+    display: inline-block;
+
+    margin: 10px 5px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    background-color:rgba(236, 142, 11, 0.9);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+nav ul li a.active, a:hover{
+    background-color: rgba(218, 177, 101, 0.124);
+    color:rgba(236, 142, 11, 0.9) ;
+}
+
+label.logo img{
+  margin: 15px;
+  width:110px;
+}
+#checkbtn{
+    float: right;
+    margin-right: 20px;
+    line-height: 18vh;
+    font-size: 30px;
+    color: whitesmoke;
+}
+#check{
+    display: none;
+}
+#checkbtn{
+    display: none;
+    cursor: pointer;
+}
+#check:checked ~ ul{
+ display: block;
+ top:22vh;
+ transition: step-end 0.10s;
+ 
+ 
+ }
+ .footer{
+    background-color: lightslategray;
+    color:rgb(233, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    gap:20px;
+
+    flex-wrap: wrap;
+
+}
+.footer .address {
+    margin-bottom: 30px;
+}
+.footer .address h2{
+    font-weight: 600;
+    margin-bottom:0 20px 30px 20px;
+
+}
+.footer .address h5{
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 3px;
+    
+}
+.footer .links{
+  margin-bottom: 0px 20px 30px 20px;
+}
+.footer .links h4{
+   margin-bottom:20px ;
+}
+.footer .links ul{
+    list-style: none;
+   
+}
+.footer .links ul li{
+    margin-bottom: 10px;
+    
+}
+.footer .links a{
+  color: rgba(232, 223, 223, 0.816);
+  text-decoration: none;
+  
+  font-size: 13px;
+  text-align: center;
+  
+}
+.footer .links a:hover{
+   color: white;
+   font-size: 14px;
+   
+   
+}
+.footer .Follow {
+    margin-bottom:0 20px 30px 20px;
+    
+}
+.footer .Follow h4{
+    margin-bottom: 30px;
+}
+.footer .Follow p{
+    margin: 30px 0px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.footer .Follow .box-margin{
+  margin-top: 30px;
+}
+.footer .Follow .box{
+    border-radius: 5px;
+    margin-right:  7px;
+    padding: 7px 15px;
+    background-color: rgba(56, 71, 73, 0.915);
+}
+.footer .Follow .box i{
+    color: whitesmoke;
+}
+
+.footer .Follow .box:hover{
+  background-color: brown;
+}
+.footer .About{
+  margin: 0px 20px 30px 20px;
+}
+.footer .About h4{
+    margin-bottom: 30px;
+}
+.footer .About p{
+    font-size: 15px;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+.sub-footer{
+    background-color: rgb(56, 80, 95);
+    text-align: center;
+    color: whitesmoke;
+    padding: 25px 0px;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+}
+.sub-footer span{
+    color:white;
+    font-weight: bold;
+}
+
+
+ @media ( max-width:1170px) {
+ nav ul {
+    display: none;
+        background-color:rgba(81, 71, 25, 0.874);
+        width: 97%;
+        
+        height: 55vh;
+        margin:0 10px;
+        position: absolute;
+        top:18vh;
+      top: -170px;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    
+    #checkbtn{
+        display: block;
+        margin: 0px 20px 0px 1px;
+    }
+    label.logo img{
+        
+        width:95px;
+      }
+}
+    
+@media ( max-width:1170px){
+
+}

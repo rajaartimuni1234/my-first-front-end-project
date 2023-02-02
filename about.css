@@ -1,0 +1,62 @@
+       
+     .back-ground-image {
+        background-image: url(/coin-img/about-background-image.jpg);
+        height: 90vh;
+ }
+     
+ .Aboutnav{
+ 
+ line-height: 80vh;
+ text-align: center;
+ color: whitesmoke;
+ word-spacing: 5px;
+ letter-spacing: 0.3px;
+ 
+ font-size: 25px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ }
+ .detail-about{
+ margin: 35px 0px 0px 0;
+ padding:50px 0 ;
+ background-color: rgba(223, 230, 236, 0.573);
+ color:rgba(84, 80, 80, 0.956);
+ }
+ .detail-about h1{
+
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+ background-color: rgba(220, 220, 220, 0.712);
+ padding: 20px 50px;
+ }
+ .right-paragrph{
+ 
+     padding: 30px;
+     display: flex;
+ }
+ .left-paragrph{
+     
+     padding: 30px;
+ }
+ .left-paragrph p{
+     margin-bottom: 15px;
+ 
+ }
+ .left-paragrph ul {
+     list-style:square ;
+    color: rgba(29, 29, 225, 0.906);
+    margin: 5px 15px;
+ }
+  .left-paragrph ul li{
+     margin: 8px 0px;
+  }
+   .justify{
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     
+   }
+   .back-ground-image nav{
+     position: fixed;
+     background-color: rgba(76, 68, 22, 0.505);
+   }
