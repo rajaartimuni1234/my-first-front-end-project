@@ -12,10 +12,10 @@ body{
 }
 
 .back-ground-image{
-    background-image: url(/coin-img/background_top.jpg);
+    background-image: url(/coin-img/background_top_4.png);
     background-size: cover;
     height: 80vh;
-    background-color: rgba(18, 17, 17, 0.858);
+    background-color: rgba(14, 14, 14, 0.889);
 }
 .phone{
 float: right;
