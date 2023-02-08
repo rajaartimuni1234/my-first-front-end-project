@@ -2,75 +2,82 @@
 
 
 
-    
 
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.flex{
+
+.flex {
     display: flex;
 }
+
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;*/
-body{
-    font-family: 'Poppins', sans-serif;  
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 
 
 
-.All-image{
+.All-image {
     margin: 60px 0px;
     padding: 30px 50px;
-   background-color: rgba(236, 238, 243, 0.58);
+    background-color: rgba(236, 238, 243, 0.58);
 }
-.All-image .row-image{
-   display: flex;
-   margin: 50px 70px;
-   gap:30px;
-   flex-wrap: wrap;
+
+.All-image .row-image {
+    display: flex;
+    margin: 50px 70px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
-.All-image .row-image .item{
+
+.All-image .row-image .item {
     background-color: rgba(217, 234, 241, 0.636);
     min-width: 180px;
-    
-    width:250px;
+
+    width: 250px;
     padding: 15px;
     border: 1.5px solid orange;
     cursor: pointer;
     border-radius: 6px;
     margin: 10px 5px;
-    
- 
+
+
 }
-.All-image .row-image .item img{
+
+.All-image .row-image .item img {
     width: 100%;
-    border: 2px  solid white;
+    border: 2px solid white;
 }
-.All-image .row-image .item .text{
+
+.All-image .row-image .item .text {
     text-align: center;
     margin: 15px 0px;
     letter-spacing: 0.7px;
 }
-.All-image .row-image .item .text p{
+
+.All-image .row-image .item .text p {
     font-family: 'Montserrat', sans-serif;
 }
 
 
 
-@media  (max-width:750px){
+@media (max-width:750px) {
     .All-image {
         padding: 10px 15px;
     }
+
     .row-image {
         display: flexbox;
     }
+
     .item {
         padding: 5px 5px;
         width: 700px;
     }
 }
-
-

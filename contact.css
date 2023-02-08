@@ -1,62 +1,69 @@
-.contact-page{
+.contact-page {
     margin-top: 30px;
-    padding:30px 0;
+    padding: 30px 0;
     height: 60vh;
     background-color: rgba(221, 228, 227, 0.409);
 }
-.contact-page .contact-line{
+
+.contact-page .contact-line {
     margin-top: 10px;
     padding: 25px 15px;
     background-color: rgba(109, 109, 104, 0.185);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.contact-page .contact-line h3{
+
+.contact-page .contact-line h3 {
     padding: 0px 15px;
-    font-family:'Times New Roman', Times, serif;
-   font-size: 30px;
-   letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 0.5px;
 }
-.contact-page .contact-line p{
+
+.contact-page .contact-line p {
 
     font-size: 18px;
 }
 
-.contact-page .contact-line p a{
-  text-decoration: none;
-  color: brown;
-}
-.contact-page .contact-line p span{
-    margin-left: 5px;
-}
-.contact-page h4{
-  color:rgba(18, 17, 17, 0.809);
-  font-size: 18px;
-  padding: 30px 0 3px 30px;
+.contact-page .contact-line p a {
+    text-decoration: none;
+    color: brown;
 }
 
-.contact-page h4 span a{
+.contact-page .contact-line p span {
+    margin-left: 5px;
+}
+
+.contact-page h4 {
+    color: rgba(18, 17, 17, 0.809);
+    font-size: 18px;
+    padding: 30px 0 3px 30px;
+}
+
+.contact-page h4 span a {
     margin-right: 10px;
     padding: 7px 12px;
     width: 50px;
     border-radius: 100%;
- 
+
     color: white;
-    background-color:rgba(220, 212, 212, 0.992);
-}
-.contact-page h4 span a:hover{
-    background-color:rgb(101, 101, 101) ;
-}
-.contact-page p{
-     margin: 0px 70px;
+    background-color: rgba(220, 212, 212, 0.992);
 }
 
-@media( max-width:1070px){
-    .contact-page .contact-line{
+.contact-page h4 span a:hover {
+    background-color: rgb(101, 101, 101);
+}
+
+.contact-page p {
+    margin: 0px 70px;
+}
+
+@media(max-width:1070px) {
+    .contact-page .contact-line {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: flex-start;
-        
-    } 
+
+    }
 }
